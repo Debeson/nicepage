@@ -1,0 +1,1217 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    /* Bacground color */
+    --black: #000000;
+    --white: #ffffff;
+    --red: #88fbfd;
+    --pink: #ff4892;
+    --gray: #333333;
+
+    /* Text color */
+     --black: #000000;
+    --gray2: #706f6f;
+    --white: #ffffff;
+    --purple: #834496;
+    --lightg: #55f9fc;
+    --yellow: #fbe900;
+    --mern: #f2f2f2;
+
+    --fonts: "Roboto", sans-serif, Arial;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+nav{
+    height: 80px;
+    background-color: rgb(234, 234, 245);
+    place-content: center;
+    padding-inline: 50px;
+}
+
+.nav1{
+    display: none;
+}
+
+.nav2, .nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2 ul li:hover{
+    cursor: pointer;
+}
+
+.nav2 img{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav2 ul{
+    gap: 30px;
+}
+
+.nav2 ul li{
+    list-style: none;
+}
+
+/* hero section */
+.hero-section{
+    height: 600px;
+    background-image: url(/nicepage-images/robotgradientintro2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    z-index: 2;
+}
+
+.hero-section .hero{
+    width: 60%;
+    position: relative;
+    z-index: 3;
+    margin-left: 50px;
+    padding: 2rem;
+}
+
+.section1{
+    padding: 30px;
+    margin: 30px;
+}
+.hero-section .hero h1{
+    font-size: 4.5rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.hero-section .hero p{
+    font-size: 2rem;
+    color: var(--white);
+}
+
+/* main section2 */
+main .section2{
+    position: relative;
+    height: 740px;
+}
+
+main .section2 .preview{
+    padding: 50px;
+    margin: 30px;
+    width: 60%;
+    position: relative;
+    top: 30px;
+}
+
+main .section2 .preview h5{
+    font-size: 1.5rem;
+    color: var(--gray2);
+}
+
+main .section2 .preview h2{
+    font-size: 4rem;
+    color: var(--purple);
+    border-bottom: 10px solid var(--lightg);
+    margin-block: 20px 40px;
+    display: inline-block;
+}
+
+main .section2 .preview p{
+    font-size: 2rem;
+    color: var(--gray2);
+    margin-bottom: 30px;
+}
+
+main .section2 .preview a{
+    border: 2px solid var(--lightg);
+    width: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--purple);
+}
+
+main .section2 .preview a:hover{
+    background-color: var(--lightg);
+}
+
+main .section2 .bubbles2 {
+    width: 40%;
+    height: 589px;
+    position: absolute;
+    top: -130px;
+    right: 0px;
+    z-index: 4;
+}
+
+/* main section3 */
+
+main .section3{
+    max-width: 100%;
+    height: 1012px;
+    background-image: url(/nicepage-images/bggradient.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 6;
+    place-content: center;
+
+}
+
+.section3 .bubbles{
+    width: 465px;
+    height: 638px;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    z-index: 8;
+}
+
+.section3 .bubble1{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: absolute;
+    top: -250px;
+    right: 150px;
+    z-index: 10;
+}
+
+.section3 .circle{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    right: 130px;
+    z-index: 12;
+}
+
+.section3 .image-stack{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+.section3 .image-stack .robot-head{
+    width: 262.5px;
+    height: 352px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.section3 .image-stack .rocket{
+    width: 262.5px;
+    height: 609px;
+}
+
+.section3 .image-stack .car{
+    width: 262.5px;
+    height: 309px;
+}
+
+.section3 .image-stack .robot-hand{
+    width: 262.5px;
+    height: 409px;
+}
+
+.section3 .text{
+    width: 50%;
+    position: absolute;
+    bottom: 160px;
+    right: 30px;
+    padding: 40px;
+}
+
+.section3 .text p{
+    font-family: var(--fonts);
+    font-size: 20px;
+    color: var(--white);
+    text-align: justify;
+}
+
+/* main section4 */
+.section4 img{
+    width: 200px;
+    height: 200px;
+}
+
+.section4{
+    width: 100%;
+    height: auto;
+    padding:30px 0;
+    background-color: var(--white);
+    position: relative;
+    z-index: 8;
+    gap: 50px;
+}
+
+.section4 .bubbles4{
+    width: 30%;
+    height: 595px;
+    position: absolute;
+    top: -120px;
+    right: 0px;
+    z-index: 10;
+}
+
+.section4 .section4-text{
+    width: 80%;
+    padding: 30px 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section4 .section4-text .preview{
+    margin-bottom: 50px;
+}   
+
+.section4 .section4-text .preview h5{
+    font-size: 1.5rem;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.section4 .section4-text .preview h2{
+    font-size: 4rem;
+    color: var(--purple);
+}
+
+.section4 .section4-text .service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.section4 .section4-text .service .services img{
+    width: 70px;
+    height: 70px;
+}
+
+.section4 .section4-text .service .services h3{
+    font-size: 2.5rem;
+    color: var(--purple);
+    margin: 20px 0 0;
+}
+.section4 .section4-text .service .services p{
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin: 20px 0;
+}
+
+/* main section5 */
+
+.section5{
+    width: 100%;
+    height: 580px;
+    background-image: url(/nicepage-images/bggradient4.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section5 .bubbles5{
+    width: 30%;
+    height: 419px;
+    position: absolute;
+    top: -80px;
+    z-index: 8;
+}
+
+.section5 .quote{
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding: 0 50px 50px;
+}
+
+main .section5 .quote img{
+    width: 110px;
+    height: 110px;
+}
+
+main .section5 .quote p{
+    font-size: 1.5rem;
+    color: var(--white);
+    word-spacing: 8px;
+    margin-block: 20px;
+}
+
+main .section5 .quote h5{
+    font-size: 2.2rem;
+    color: var(--white);
+    text-align: right;
+}
+
+/* main section6 */
+main .section6{
+    width: 100%;
+    height: 535px;
+    background-image: url(/nicepage-images/bggradient3.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+    padding-inline: 80px;
+}
+
+main .section6 .cars{
+    width: 55%;
+    position: relative;
+    top: -50px;
+}
+
+main .section6 .car1{
+    width: 684px;
+    height: 420px;
+}
+
+main .section6 .car2{
+    width: 430px;
+    height: 250px;
+    position: relative;
+    top: -90px;
+    right: -200px;
+}
+
+
+main .section6 .concept-car{
+    width: 40%;
+    position: relative;
+    top: -50px;
+}
+
+main .section6 .concept-car h2{
+    font-size: 4.5rem;
+    color: var(--white);
+    border-bottom: 10px solid var(--lightg);
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+main .section6 .concept-car p{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+main .section7{
+    width: 100%;
+    height: 850px;
+    background-color: var(--mern);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+
+}
+
+main .section7 .bubbles9{
+    width: 40%;
+    max-width: 500px;
+    height: 571px;
+    position: absolute;
+    right: 0;
+    top: -150px;
+}
+
+main .section7 .section7-text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-inline: 100px;
+    position: relative;
+    top: -80px;
+}
+
+main .section7 .section7-text h5{
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+main .section7 .section7-text h2{
+    font-size: 4rem;
+    color: var(--purple);
+}
+
+main .section7 .section7-text h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: var(--purple);
+}
+
+main .section7 .section7-text p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+main .section7 .section7-preview{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    left: -100px;
+}
+
+main .section7 .section7-preview .preview-img{
+    width: 55%;
+    position: relative;
+    top: -50px;
+}
+
+main .section7 .section7-preview .preview-img .preview-img1{
+    width: 330px;
+    height: 180px;
+    position: absolute;
+    z-index: 4;
+    top: -100px;
+    right: -180px;
+    border-top: 30px solid var(--lightg);
+    border-left: 30px solid var(--lightg);
+}
+
+main .section7 .section7-preview .preview-img .preview-img2{
+    width: 460px;
+    height: 250px;
+    position: relative;
+}
+
+main .section7 .section7-preview p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+/* main section8 */
+main .section8{
+    width: 100%;
+    height: 550px;
+    background-image: url(/nicepage-images/bggradient4.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main .section8 .image-stack{
+    width: 80%;
+    height: 565px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: -100px;
+}
+
+main .section8 .image-stack .trophy{
+    width: 262px;
+    height: 400px;
+    background-image: url(/nicepage-images/1.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main .section8 .image-stack .super-rob{
+    width: 262px;
+    height: 560px;
+    background-image: url(/nicepage-images/as.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main .section8 .image-stack .radio-head{
+    width: 262px;
+    height: 395px;
+    background-image: url(/nicepage-images/xs.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main .section8 .image-stack .rob-hand{
+    width: 262.5px;
+    height: 565px;
+    
+}
+
+main .section8 .image-stack .rob-hand .pointing-hand{
+    width: 100%;
+    height: 335px;
+    background-image: url(/nicepage-images/Untitled7.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main .section8 .image-stack .rob-hand p{
+    font-size: 1.5rem;
+    padding-block: 30px;
+    color: var(--white);
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 262px;
+    background-color: var(--pink);
+    display: flex;
+}
+
+footer .foot{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    /* font-size: 2rem; */
+}
+
+footer .foot p{
+    font-size: 1.2rem;
+}
+
+.section9{
+    width: 100%;
+    /* height: 104px; */
+    background-color: var(--gray);
+    padding: 4rem;
+}
+
+.section9 p{
+    color: var(--white);
+    font-size: 1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.section9 p span{
+    display: inline-block;
+    color: var(--purple);
+    border-bottom: 1px dashed white;
+    padding-bottom: 0.2rem;
+}
+
+.section9 p a{
+    color: rgb(172, 94, 172);
+    cursor: pointer;
+}
+
+.section9 p a:hover{
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 767px){
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    header{
+        width: 100%;
+        height: 94px;
+        background-color: rgb(234, 234, 245);
+    }
+
+    .nav1{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 20px;
+        text-align: center;
+    }
+
+    .nav1 img{
+        width: 64px;
+        height: 30px;
+    }
+
+    .nav2{
+        display: none;
+    }
+
+    .hero-section{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/nicepage-images/robotgradientintro2.jpg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .hero-section .section1 img{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        z-index: 2;
+    }
+
+    .hero-section .section1 .hero{
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        font-family: var(--fonts);
+        color: white;
+        z-index: 4;
+        padding: 4rem;
+    }
+
+    .hero-section .section1 .hero h1{
+        font-size: 5rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-section .section1 .hero{
+        font-size: 2rem;
+    }
+
+    /* main section 2 */
+    main .section2{
+        max-width: 100%;
+        height: 1300px;
+        background-color: var(--white);
+        /* padding: 20px; */
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    main .section2 .preview{
+        padding: 2rem;
+        position: relative;
+        top: -150px;
+        z-index: 4;
+    }
+
+    main .section2 .preview h5{
+        font-size: 1.8rem;
+        color: var(--gray2);
+    }
+
+    main .section2 .preview h2{
+        font-size: 3.3rem;
+        margin-block: 1.2rem;
+        color: var(--purple);
+        border-bottom: 10px solid var(--lightg);
+        display: inline-block;
+    }
+
+    main .section2 .preview p{
+        color: var(--gray2);
+        font-size: 1.8rem;
+        text-align: justify;
+        margin-block: 40px;
+    }
+
+    main .section2 .preview a{
+         border: 2px solid var(--lightg);
+        width: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: var(--purple);
+    }
+
+    main .section2 .preview a:hover{
+        background-color: var(--lightg);
+    }
+
+    main .section2 .bubbles2{
+        width: 80%;
+        height: 500px;
+        position: absolute;
+        top: -60px;
+        right: 0px;
+        z-index: 2;
+    }
+
+    main .section3{
+        max-width: 100%;
+        height: 2600px;
+        background-image: url(/nicepage-images/bggradient.jpg.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .section3 .bubbles{
+        width: 60%;
+        height: 560px;
+        position: absolute;
+        left: -110px;
+        top: -100px;
+    }
+
+    main .section3 .bubble1{
+        width: 315px;
+        height: 315px;
+        border-radius: 100%;
+        position: absolute;
+        top: -150px;
+        right: 30px;
+        z-index: 10;
+    }
+
+    main .section3 .circle{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        z-index: 12;
+    }
+
+    main .section3 .image-stack{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        top: 250px;
+    }
+
+    main .section3 .image-stack .robot-head{
+        width: 340px;
+        height: 457px;
+        position: relative;
+        z-index: 10;
+    }
+
+    main .section3 .image-stack .rocket{
+        width: 340px;
+        height: 419px;
+    }
+
+    main .section3 .image-stack .car{
+        width: 340px;
+        height: 368px;
+    }
+
+    main .section3 .image-stack .robot-hand{
+        width: 340px;
+        height: 409px;
+    }
+
+    main .section3 .text{
+        position: relative;
+        width: 80%;
+        margin: auto;
+        /* padding: 40px; */
+    }
+
+    p{
+        font-family: var(--fonts);
+        font-size: 1.2rem;
+        color: var(--white);
+        text-align: justify;
+    }
+
+
+
+/* main .section2 .preview p{
+    padding-right: 100px;
+    font-size: 1.5rem;
+    color: var(--gray2);
+    margin-bottom: 30px;
+} */
+
+/* main .section2 .preview a{
+    border: 2px solid var(--lightg);
+    width: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--purple);
+} */
+
+/* main .section2 .preview a:hover{
+    background-color: var(--lightg);
+} */
+
+/* main .section2 .bubbles2 {
+    width: 390px;
+    height: 589px;
+    position: absolute;
+    top: -130px;
+    right: 0px;
+    z-index: 4;
+} */
+
+
+    /* img{
+        width: 100px;
+        height: 100px;
+    }
+
+    header{
+        width: 100%;
+        height: 94px;
+        background-color: rgb(234, 234, 245);
+    }
+
+    .nav1, .nav2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 20px;
+        text-align: center;
+    }
+    .nav1{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav2{
+        display: none;
+    }
+
+    .section1{
+        width: 100%;
+        height: 529px;
+        padding: 30px;
+        background-image: url(/nicepage-images/robotgradientintro2.jpg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 2;
+    }
+    .section1 img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        z-index: 2;
+    }
+
+    .section1 .hero{
+    position: absolute;
+    top: 120px;
+    font-family: var(--fonts);
+    color: white;
+    z-index: 4;
+    padding-right: 50px;
+    }
+
+    .section1 .hero h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .section1 .hero p{
+        font-size: 30px;
+    }
+
+    .section2{
+        max-width: 100%;
+        height: fit-content;
+        background-color: var(--white);
+        padding: 20px;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .section2 .bubbles2{
+        max-width: 100%;
+        height: 589px;
+        position: relative;
+        top: -60px;
+        right: -85px;
+        z-index: 4;
+    }
+
+    .section2 .preview{
+        position: relative;
+        top: -150px;
+        padding: 20px;
+    }
+
+    .section2 .preview h5{
+        font-size: 2rem;
+        color: var(--gray2);
+    }
+
+    .section2 .preview h2{
+        font-size: 3.5rem;
+        color: var(--purple);
+        margin-block: 20px;
+        border-bottom: 20px solid var(--lightg);
+    }
+
+    .section2 .preview p{
+        font-size: 2rem;
+        font-weight: 100;
+        color: var(--gray);
+        margin-bottom: 20px;
+    }
+
+    .section2 .preview h5, .section2 .preview h2, .section2 .preview p{
+        margin-bottom: 40px;
+    }
+
+    .section2 .preview a{
+        border: 2px solid var(--lightg);
+        width: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: var(--purple);
+    }
+
+    .section2 .preview a:hover{
+        background-color: var(--lightg);
+    }
+
+    .section3{
+        max-width: 100%;
+        height: 2600px;
+        background-image: url(/nicepage-images/bggradient.jpg.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 6;
+        place-content: center;
+
+    }
+
+    .section3 img{
+        width: 366px;
+        height: 366px;
+    }
+
+    .section3 .bubbles{
+        width: 320px;
+        height: 638px;
+        position: absolute;
+        top: -60px;
+        left: -130px;
+        z-index: 8;
+    }
+
+    .section3 .bubble1{
+        width: 330px;
+        height: 330px;
+        border-radius: 100%;
+        position: absolute;
+        top: -150px;
+        right: 30px;
+        z-index: 10;
+    }
+
+    .section3 .circle{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        z-index: 12;
+    }
+
+    .section3 .image-stack{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        right: 50%;
+    }
+
+    .section3 .image-stack .robot-head{
+        height: 457px;
+        position: relative;
+        z-index: 10;
+
+    }
+
+    .section3 .image-stack .rocket{
+        height: 419px;
+    }
+
+    .section3 .image-stack .car{
+        height: 368px;
+    }
+
+    .section3 .image-stack .robot-hand{
+        height: 409px;
+    }
+
+    .section3 .text{
+        position: absolute;
+        bottom: 200px;
+        padding: 40px;
+    }
+
+    .section3 .text p{
+        font-family: var(--fonts);
+        font-size: 30px;
+        color: var(--white);
+        text-align: justify;
+    }
+    .section4 img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .section4{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        background-color: var(--white);
+        position: relative;
+        z-index: 8;
+        overflow-x: hidden; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+
+    .section4 .bubbles4{
+        width: 259px;
+        height: 595px;
+        position: relative;
+        top: -120px;
+        right: -120px;
+        z-index: 10;
+    }
+    .section4 .preview{
+        position: relative;
+        top: -200px;
+        z-index: 12;
+    }   
+
+    .section4 .preview h5{
+        font-size: 2rem;
+        color: #111111;
+        z-index: 12;
+        margin-bottom: 20px;
+    }
+
+    .section4 .preview h2{
+        font-size: 3.5rem;
+        color: var(--purple);
+    }
+
+    .section4 .service{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        position: relative;
+        top: -150px;
+    }
+
+    .section4 .services{
+        width: 340px;
+        text-align: left;
+    }
+
+    .section4 .services img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .section4 .services h3{
+        font-size: 2.5rem;
+        color: var(--purple);
+        margin: 20px 0 0;
+    }
+    .section4 .services p{
+        font-size: 1.5rem;
+        color: var(--gray);
+        margin: 20px 0;
+    }
+
+    .section5{
+        width: 100%;
+        height: 800px;
+        background-color: var(--purple);
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5 img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+    } */
+
+    /* still wrking on this */
+
+    /* .section5 .bubbles5{
+        width: 261px;
+        height: 459px;
+        position: absolute;
+        top: -124px;
+        right: -129px;
+    } */
+}
+
